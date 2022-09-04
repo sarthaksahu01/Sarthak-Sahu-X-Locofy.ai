@@ -1,0 +1,42 @@
+.mc11Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1338px;
+  object-fit: cover;
+}
+.mc11Icon,
+.mc22Icon,
+.mc31Icon,
+.mc41Icon {
+  height: 345px;
+}
+.mc22Icon,
+.mc31Icon,
+.mc41Icon,
+.mc51Icon {
+  position: absolute;
+  top: 0;
+  width: 1338px;
+  object-fit: cover;
+}
+.mc22Icon {
+  left: 1338px;
+}
+.mc31Icon {
+  left: 2676px;
+}
+.mc41Icon {
+  left: 4014px;
+}
+.mc51Icon {
+  left: 5352px;
+  height: 375.39px;
+}
+.sliderComponent1Div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 345px;
+  overflow: hidden;
+}

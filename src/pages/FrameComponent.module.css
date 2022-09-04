@@ -1,0 +1,708 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.groupButton {
+  position: absolute;
+  width: 59px;
+}
+.rectangleDiv {
+  top: 0;
+}
+.rectangleDiv,
+.rectangleDiv1,
+.rectangleDiv2 {
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  width: 59px;
+  height: 8px;
+}
+.rectangleDiv1 {
+  top: 15px;
+}
+.groupButton,
+.rectangleDiv2 {
+  top: 30px;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 52px;
+  height: 38px;
+}
+.latestTrending,
+.watchlistDiv {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.watchlistDiv {
+  top: 542px;
+  left: 74px;
+}
+.latestTrending {
+  top: 0;
+  left: 0;
+}
+.groupDiv,
+.groupDiv1 {
+  position: absolute;
+  top: 863px;
+  left: 69px;
+  width: 255px;
+  height: 36px;
+}
+.groupDiv1 {
+  top: 1245px;
+  left: 74px;
+  width: 204px;
+}
+.aboutDisneyHostarButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.aboutDisneyHostarButton:hover,
+.careerButton:hover,
+.connectWithUs:hover,
+.fAQButton:hover,
+.feedbackButton:hover,
+.groupButton1:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.groupButton1 {
+  top: 1679px;
+  left: 55px;
+  width: 209px;
+  height: 24px;
+}
+.groupButton1,
+.groupButton2,
+.termsOfUse {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.termsOfUse {
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.groupButton2 {
+  top: 1679px;
+  left: 279px;
+  width: 131px;
+  height: 24px;
+}
+.fAQButton {
+  position: absolute;
+  top: 0;
+  left: 151px;
+  font-weight: 600;
+  display: inline-block;
+}
+.careerButton,
+.fAQButton,
+.feedbackButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.feedbackButton {
+  position: absolute;
+  top: 0;
+  left: 206px;
+  font-weight: 600;
+  display: inline-block;
+}
+.careerButton {
+  left: 316px;
+}
+.careerButton,
+.connectWithUs,
+.disneyHotstarAppDiv {
+  position: absolute;
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.connectWithUs {
+  left: 482px;
+  cursor: pointer;
+}
+.disneyHotstarAppDiv {
+  left: 746px;
+}
+.groupDiv2 {
+  position: absolute;
+  top: 1679px;
+  left: 425px;
+  width: 943px;
+  height: 24px;
+  font-size: 20px;
+}
+.hostarSpan {
+  font-weight: 500;
+}
+.disneyHostarDiv {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  display: inline-block;
+}
+.moviesButton,
+.tVButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.tVButton {
+  position: absolute;
+  top: 13px;
+  left: 160px;
+  font-weight: 500;
+  display: inline-block;
+}
+.moviesButton {
+  left: 205px;
+}
+.disneyDiv,
+.moviesButton,
+.sportsButton {
+  position: absolute;
+  top: 13px;
+  font-weight: 500;
+  display: inline-block;
+}
+.sportsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 291px;
+  font-size: 20px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.disneyDiv {
+  left: 372px;
+}
+.groupDiv3,
+.kidsDiv {
+  position: absolute;
+  height: 51px;
+}
+.kidsDiv {
+  top: 0;
+  left: 469px;
+  font-size: 31px;
+  font-family: Kurale;
+  color: #f6c410;
+  display: inline-block;
+  width: 66px;
+}
+.groupDiv3 {
+  top: 23px;
+  left: 160px;
+  width: 535px;
+  font-size: 20px;
+}
+.groupTextField {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.groupForm,
+.profileIcon {
+  position: absolute;
+  height: 51px;
+}
+.profileIcon {
+  top: 0;
+  left: 238px;
+  width: 51px;
+  object-fit: cover;
+}
+.groupForm {
+  top: 28px;
+  left: 1126px;
+  width: 289px;
+}
+.component1Icon {
+  position: absolute;
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  top: 268px;
+  left: 52px;
+  width: 44px;
+  height: 42px;
+}
+.groupIcon1 {
+  left: 1346px;
+}
+.component1Icon {
+  top: 131px;
+  left: 52px;
+  border-radius: 20px;
+  width: 1338px;
+  height: 345px;
+  overflow: hidden;
+}
+.mc11Icon {
+  left: 0;
+}
+.mc11Icon,
+.mc22Icon,
+.mc31Icon,
+.mc41Icon,
+.mc51Icon {
+  position: absolute;
+  top: 0;
+  width: 1338px;
+  height: 345px;
+  object-fit: cover;
+}
+.mc22Icon {
+  left: 1338px;
+}
+.mc31Icon {
+  left: 2676px;
+}
+.mc41Icon {
+  left: 4014px;
+}
+.mc51Icon {
+  left: 5352px;
+}
+.groupButton3,
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  width: 30px;
+  height: 41px;
+}
+.groupIcon2,
+.groupIcon3 {
+  top: 152px;
+  left: 1294px;
+}
+.groupIcon3 {
+  top: 0;
+  left: 0;
+}
+.groupButton3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 152px;
+  left: 14px;
+}
+.component2A {
+  text-decoration: none;
+  position: absolute;
+  top: 131px;
+  left: 52px;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 1338px;
+  height: 345px;
+  overflow: hidden;
+}
+.w11A {
+  position: absolute;
+  left: 0;
+  height: 215px;
+  background-image: url(../../public/w1-1@3x.png);
+}
+.w11A,
+.w12A,
+.w13A {
+  text-decoration: none;
+  top: 0;
+  border-radius: 15px;
+  width: 330px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.w12A {
+  position: absolute;
+  left: 345px;
+  height: 215px;
+  background-image: url(../../public/w1-2@3x.png);
+}
+.w13A {
+  left: 690px;
+  background-image: url(../../public/w1-3@3x.png);
+}
+.w13A,
+.w14A,
+.watchlistSliderDiv {
+  position: absolute;
+  height: 215px;
+}
+.w14A {
+  text-decoration: none;
+  top: 0;
+  left: 1035px;
+  border-radius: 15px;
+  width: 330px;
+  background-image: url(../../public/w1-4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.watchlistSliderDiv {
+  top: 602px;
+  left: 50px;
+  background-color: #001a33;
+  width: 1365px;
+  overflow: hidden;
+}
+.l111A,
+.l112A {
+  text-decoration: none;
+}
+.l111A {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px;
+  background-image: url(../../public/l11-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.l112A {
+  position: relative;
+  width: 208px;
+  height: 275px;
+  flex-shrink: 0;
+  opacity: 1;
+}
+.l112A.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.l111Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.l111A1,
+.l113A {
+  text-decoration: none;
+}
+.l113A {
+  position: relative;
+  width: 208px;
+  height: 275px;
+  flex-shrink: 0;
+}
+.l111A1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px;
+  background-image: url(../../public/l11-13@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.latestAndTrending {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 670px);
+  background-color: #001a33;
+  width: 2438px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.b12Icon,
+.frameA {
+  border-radius: 15px;
+  width: 355px;
+  height: 215px;
+}
+.b12Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.frameA {
+  text-decoration: none;
+  position: relative;
+  background-color: #fff;
+  flex-shrink: 0;
+}
+.frameDiv1 {
+  position: absolute;
+  top: calc(50% - -352px);
+  left: calc(50% - 665px);
+  background-color: #001a33;
+  width: 2945px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.sTARAllRightsReservedHBO {
+  position: absolute;
+  top: 1716px;
+  left: 55px;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  width: 757px;
+  height: 52px;
+}
+.rectangleDiv3 {
+  position: absolute;
+  height: 81.97%;
+  width: 100%;
+  top: 6.56%;
+  right: 0;
+  bottom: 11.48%;
+  left: 0;
+  background-color: #193b5b;
+}
+.fB {
+  position: absolute;
+  height: 100%;
+  width: 54%;
+  top: 0;
+  right: 24%;
+  bottom: 0;
+  left: 22%;
+  font-size: 50px;
+  display: inline-block;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+}
+.fLogoButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1716px;
+  left: 939px;
+  width: 50px;
+  height: 61px;
+}
+.rectangleDiv4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #193b5b;
+}
+.twitterRemovebgPreview1Icon {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  top: 10%;
+  right: 10%;
+  bottom: 10%;
+  left: 10%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tLogoButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1720px;
+  left: 994px;
+  width: 50px;
+  height: 50px;
+}
+.downloadOnThe {
+  position: absolute;
+  height: 16%;
+  width: 55.88%;
+  top: 28%;
+  right: 9.8%;
+  bottom: 56%;
+  left: 34.31%;
+  display: inline-block;
+}
+.appIcon,
+.appStoreDiv {
+  position: absolute;
+  bottom: 24%;
+}
+.appStoreDiv {
+  height: 32%;
+  width: 61.76%;
+  top: 44%;
+  right: 7.84%;
+  left: 30.39%;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+.appIcon {
+  height: 52%;
+  width: 21.57%;
+  top: 24%;
+  right: 71.57%;
+  left: 6.86%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.appStoreLogo {
+  text-decoration: none;
+  position: absolute;
+  top: 1723px;
+  left: 1164px;
+  width: 102px;
+  height: 50px;
+  text-align: center;
+  font-size: 7px;
+  color: inherit;
+}
+.rectangleIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.downloadOnThe1,
+.playStoreDiv {
+  position: absolute;
+  height: 16%;
+  width: 55.88%;
+  top: 28%;
+  right: 10.78%;
+  bottom: 56%;
+  left: 33.33%;
+  display: inline-block;
+}
+.playStoreDiv {
+  height: 32%;
+  width: 69.61%;
+  top: 44%;
+  right: 4.9%;
+  bottom: 24%;
+  left: 25.49%;
+  font-size: 13px;
+  font-weight: 600;
+}
+.googlePlayStore1RemovebgPIcon {
+  position: absolute;
+  height: 56%;
+  width: 27.45%;
+  top: 20%;
+  right: 69.61%;
+  bottom: 24%;
+  left: 2.94%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.playStoreLogo {
+  text-decoration: none;
+  position: absolute;
+  top: 1723px;
+  left: 1271px;
+  width: 102px;
+  height: 50px;
+  text-align: center;
+  font-size: 7px;
+  color: inherit;
+}
+.frameDiv {
+  position: relative;
+  background-color: #001a33;
+  width: 100%;
+  height: 1906px;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: Inter;
+}
